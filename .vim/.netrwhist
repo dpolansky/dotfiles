@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/davepolansky/dev/src/github.com/restlessbandit/discobox/.git'
+let g:netrw_dirhist_2='/Users/davepolansky/dev/src/github.com/restlessbandit/trapi/vendor'
+let g:netrw_dirhist_3='/Users/davepolansky/bin'
+let g:netrw_dirhist_4='/Users/davepolansky'
+let g:netrw_dirhist_5='/Users/davepolansky/Movies'

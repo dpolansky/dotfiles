@@ -29,9 +29,6 @@ set showtabline=2
 set winwidth=79
 " This makes RVM work inside Vim. I have no idea why.
 set shell=bash
-" Prevent Vim from clobbering the scrollback buffer. See
-" http://www.shallowsky.com/linux/noaltscreen.html
-set t_ti= t_te=
 " keep more context when scrolling off the end of a buffer
 set scrolloff=3
 " Don't make backups at all
@@ -97,7 +94,7 @@ imap <left> <nop>
 imap <right> <nop>
 
 " colors
-:color nord
+:color solarized
 :set bg=dark
 :set t_Co=256
 
@@ -145,7 +142,7 @@ map <leader>. :GoAlternate<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " fuzzy search
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set rtp+=/usr/local/opt/fzf
+set rtp+=/home/dave/.fzf/
 map <leader>f :call fzf#run({'sink': 'e'})<cr>
 
 " change to last file

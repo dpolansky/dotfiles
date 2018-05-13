@@ -9,3 +9,16 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 # set the command fzf uses as input
 export FZF_DEFAULT_COMMAND='ag --ignore-dir=vendor --ignore-dir=\_tools --ignore-dir=\_vendor --ignore-dir=/api/restapi --smart-case -g ""'
+
+
+export GOPATH=/home/dave/go
+# paths
+export PATH=/usr/lib/go-1.10/bin:$PATH
+export PATH=/home/dave/go/bin:$PATH
+
+alias ls="ls --color -a"
+
+alias vimrc="vim ~/.vimrc"
+alias i3config="vim ~/.config/i3/config"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

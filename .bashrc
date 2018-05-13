@@ -1,4 +1,5 @@
 export EDITOR="vim"
+export XDG_CURRENT_DESKTOP=Unity
 export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
 export HISTSIZE=100000                   # big big history
 export HISTFILESIZE=100000               # big big history
@@ -18,7 +19,9 @@ export PATH=/home/dave/go/bin:$PATH
 
 alias ls="ls --color -a"
 
+alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
-alias i3config="vim ~/.config/i3/config"
+alias i3config="vim ~/.i3/config"
+alias rl="source ~/.bashrc"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
